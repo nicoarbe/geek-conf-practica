@@ -1,11 +1,25 @@
-#text-geek{
+#opc{
     color: #00BCD4;
 }
-
 #main .carousel-inner img{
     max-height: 70vh;
     object-fit: cover;
     filter: grayscale(70%);
+}
+#main{
+    filter: alpha(opacity=100);
+}
+#main .carousel .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+.text-ppl{
+  height: 100%;
 }
 
 #header img{
@@ -14,23 +28,33 @@
 
 #main .carousel{
     position: relative;
+ 
 }
-
 #time{
     background-color: #343a40;
     color: white;
 }
 
-#time image{
+#time img{
     max-width: 100%;
 }
+.btn-geek {
+   background-color: #00BCD4;
+   color: white;
+}
 
-.btn-geek{
-    background-color: #00bcd4;
+#text-carousel{
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    z-index: 20;
     color: white;
 }
 
+
 #footer{
-    background: linear-gradient(90deg, #1C3643,#273B47 25%,#1E5372);
+    background: linear-gradient( 90deg, #1C3643,#273B47 25%,#1E5372);
+}
+#footer a{
     color: white;
 }
